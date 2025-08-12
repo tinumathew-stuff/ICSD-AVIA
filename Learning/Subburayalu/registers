@@ -1,0 +1,39 @@
+`timescale 1ns / 1ps
+
+module Registers(
+input clk,
+input[63:0] isa,
+output reg[7:0] out
+);
+reg[7:0] reg_a[127:0];
+reg[7:0] reg_b[127:0];
+reg[7:0] reg_c[127:0];
+
+
+always@(posedge clk)
+begin
+
+if(isa[9] == 1'b0)
+begin
+out <= (isa[1:0]==2'b00) ? reg_a[isa[8:2]] : (isa[1:0]==2'b01) ? reg_b[isa[8:2]] : (isa[1:0]==2'b10) ? reg_c[isa[8:2]] : 8'b00000000;
+end
+if(isa[9] == 1'b1)
+begin
+if(isa[1:0] == 2'b00)
+begin
+reg_a[isa[8:2]] <= isa[16:10] ;
+end
+if(isa[1:0] == 2'b01)
+begin
+reg_b[isa[8:2]] <= isa[16:10] ;
+end
+if(isa[1:0] == 2'b10)
+begin
+reg_c[isa[8:2]] <= isa[16:10] ;
+end
+
+end
+
+
+end
+endmodule

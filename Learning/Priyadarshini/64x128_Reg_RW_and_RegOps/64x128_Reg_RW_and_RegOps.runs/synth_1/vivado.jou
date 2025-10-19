@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sun Oct 19 22:56:54 2025
+# Process ID: 1180
+# Current directory: D:/PROJECTS/64x128_Reg_RW_and_RegOps/64x128_Reg_RW_and_RegOps.runs/synth_1
+# Command line: vivado.exe -log tb_tri_regfile.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source tb_tri_regfile.tcl
+# Log file: D:/PROJECTS/64x128_Reg_RW_and_RegOps/64x128_Reg_RW_and_RegOps.runs/synth_1/tb_tri_regfile.vds
+# Journal file: D:/PROJECTS/64x128_Reg_RW_and_RegOps/64x128_Reg_RW_and_RegOps.runs/synth_1\vivado.jou
+# Running On        :DESKTOP-VMFH33N
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :11th Gen Intel(R) Core(TM) i3-1115G4 @ 3.00GHz
+# CPU Frequency     :2995 MHz
+# CPU Physical cores:2
+# CPU Logical cores :4
+# Host memory       :8303 MB
+# Swap memory       :1342 MB
+# Total Virtual     :9645 MB
+# Available Virtual :2326 MB
+#-----------------------------------------------------------
+source tb_tri_regfile.tcl -notrace

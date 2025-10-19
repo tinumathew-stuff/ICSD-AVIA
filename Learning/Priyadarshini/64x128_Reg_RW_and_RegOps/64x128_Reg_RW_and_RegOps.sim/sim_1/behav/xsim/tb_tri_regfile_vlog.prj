@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../64x128_Reg_RW_and_RegOps.srcs/sources_1/new/tri_regfile1.v" \
+"../../../../64x128_Reg_RW_and_RegOps.srcs/sources_1/new/tb_tri_regfile.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

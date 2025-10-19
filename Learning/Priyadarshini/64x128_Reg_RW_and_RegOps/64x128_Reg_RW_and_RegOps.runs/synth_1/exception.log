@@ -1,0 +1,4 @@
+ERROR: Exception caught trying to open file D:\PROJECTS\64x128_Reg_RW_and_RegOps\64x128_Reg_RW_and_RegOps.runs\synth_1/runme.log
+	Exception name: Error
+	Exception error code: 70
+	Exception message: Permission denied

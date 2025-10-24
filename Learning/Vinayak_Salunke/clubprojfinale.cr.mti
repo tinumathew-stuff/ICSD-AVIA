@@ -1,0 +1,50 @@
+C:/intelFPGA/18.1/23BVD1062/clubproj/tb_eu.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/23BVD1062/clubproj/tb_eu.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_eu
+
+Top level modules:
+	tb_eu
+
+} {} {}} C:/intelFPGA/18.1/23BVD1062/clubproj/finale_select_mux.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/23BVD1062/clubproj/finale_select_mux.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module final_select_mux
+
+Top level modules:
+	final_select_mux
+
+} {} {}} C:/intelFPGA/18.1/23BVD1062/clubproj/mask_decode.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/23BVD1062/clubproj/mask_decode.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mask_decode
+
+Top level modules:
+	mask_decode
+
+} {} {}} C:/intelFPGA/18.1/23BVD1062/clubproj/dynamic_select.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/23BVD1062/clubproj/dynamic_select.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module dynamic_select
+
+Top level modules:
+	dynamic_select
+
+} {} {}} C:/intelFPGA/18.1/23BVD1062/clubproj/select_mux.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/23BVD1062/clubproj/select_mux.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module select_mux
+
+Top level modules:
+	select_mux
+
+} {} {}} C:/intelFPGA/18.1/23BVD1062/clubproj/alu.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/23BVD1062/clubproj/alu.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} C:/intelFPGA/18.1/23BVD1062/clubproj/bit_select.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/23BVD1062/clubproj/bit_select.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module bit_select
+
+Top level modules:
+	bit_select
+
+} {} {}}
